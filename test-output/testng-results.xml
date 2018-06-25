@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27258" started-at="2018-06-25T20:57:25Z" finished-at="2018-06-25T20:57:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27258" started-at="2018-06-25T20:57:25Z" finished-at="2018-06-25T20:57:53Z">
+      <class name="SDETJob.PersonalInfoTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:SDETJob.PersonalInfoTest@574413bd]" name="setUp" is-config="true" duration-ms="4873" started-at="2018-06-25T20:57:25Z" finished-at="2018-06-25T20:57:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="navigateToHomePage()[pri:0, instance:SDETJob.PersonalInfoTest@574413bd]" name="navigateToHomePage" is-config="true" duration-ms="6339" started-at="2018-06-25T20:57:30Z" finished-at="2018-06-25T20:57:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHomePage -->
+        <test-method status="PASS" signature="fullNameEmtyTest()[pri:0, instance:SDETJob.PersonalInfoTest@574413bd]" name="fullNameEmtyTest" duration-ms="264" started-at="2018-06-25T20:57:37Z" finished-at="2018-06-25T20:57:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fullNameEmtyTest -->
+        <test-method status="PASS" signature="navigateToHomePage()[pri:0, instance:SDETJob.PersonalInfoTest@574413bd]" name="navigateToHomePage" is-config="true" duration-ms="443" started-at="2018-06-25T20:57:37Z" finished-at="2018-06-25T20:57:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHomePage -->
+        <test-method status="PASS" signature="submitFullApplication()[pri:0, instance:SDETJob.PersonalInfoTest@574413bd]" name="submitFullApplication" duration-ms="15311" started-at="2018-06-25T20:57:37Z" finished-at="2018-06-25T20:57:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitFullApplication -->
+      </class> <!-- SDETJob.PersonalInfoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
