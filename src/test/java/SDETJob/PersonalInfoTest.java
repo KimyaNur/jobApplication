@@ -153,7 +153,7 @@ public class PersonalInfoTest {
 		driver.get("https://mail.google.com/mail/u/0/#inbox");
 		driver.findElement(By.xpath("//*[@id=\"identifierId\"]")).sendKeys("kimyanursa@gmail.com");
 		driver.findElement(By.xpath("//*[@id=\"identifierNext\"]/content/span")).click();
-		driver.findElement(By.xpath("//*[@id=\"password\"]/div[1]/div/div[1]/input")).sendKeys(                                                    "3.14euler");
+		driver.findElement(By.xpath("//*[@id=\"password\"]/div[1]/div/div[1]/input")).sendKeys(        "pasword");
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("(//span[@class='RveJvd snByac'])[1]")).click();   //handle click next
 		//driver.findElement(By.xpath("//*[@id=\"passwordNext\"]/content/span")).click();
